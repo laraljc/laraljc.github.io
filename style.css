@@ -1,0 +1,59 @@
+body {
+  background-color: papayawhip;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header img {
+  float: left;
+  margin-right: 10px;
+}
+
+.header h1 {
+  position: relative;
+  top: 15px;
+  left: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.header p {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.header h2 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.header ul {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  list-style-position: inside;
+}
+
+.header h3 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.header ol {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  list-style-position: inside;
+}
