@@ -1,70 +1,15 @@
 body {
   background-color: papayawhip;
-  font-family: 'Open Sans', sans-serif;
-  padding-left: 75px;
-  padding-right: 75px;
-  margin-top: 0;
-}
-
-.header img {
-  float: left;
-  margin-right: 10px;
-}
-
-.header h1 {
-  position: relative;
-  top: 15px;
-  left: 20px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.header p {
-  position: relative;
-  top: 20px;
-  left: 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.header h2 {
-  position: relative;
-  top: 20px;
-  left: 20px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.header ul {
-  position: relative;
-  top: 20px;
-  left: 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  list-style-position: inside;
-}
-
-.header h3 {
-  position: relative;
-  top: 20px;
-  left: 20px;
-  margin-bottom: 0;
-  margin-top: 5px;
-}
-
-.header ol {
-  position: relative;
-  top: 20px;
-  left: 20px;
-  margin-top: 5px;
-  margin-bottom: 0;
-  list-style-position: inside;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 
 .navbar {
   background-color: white;
   overflow: hidden;
   margin-top: 0;
+  border-style: none none solid none;
+  height: 60px;
 }
 
 .navbar a {
@@ -75,14 +20,38 @@ body {
   text-decoration: none;
   font-size: 17px;
   float: right;
+
 }
 
 .main {
   display: flex;
   flex-direction: row;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .intro {
   padding-top: 50px;
   padding-right: 20px;
+  width: 1000px;
+}
+
+.image {
+  float: right;
+}
+
+.experience {
+  border-style: solid;
+}
+
+.projects  {
+  border-style: solid;
+}
+
+.about {
+  border-style: solid;
+}
+
+.fun {
+  border-style: solid;
 }
