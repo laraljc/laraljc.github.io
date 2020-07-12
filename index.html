@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> About Me Page for Lara Chu </title>
+    <meta charset="utf-8">
+    <title> Lara Chu </title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+
   </head>
 
   <body>
@@ -18,34 +23,104 @@
     </div>
 
       <div class="main">
-        <div class="intro">
-        <h1> Hi, I'm Lara! </h1>
-        <h2> Electrical Engineering & Computer Science</h2>
-        <h2> UC Berkeley 2021</h2>
-        <div class="text-black"> </div>
-        <div class="text-white"> </div>
-        </div>
+        <div class="black-intro"></div>
+          <div class="intro">
+          <h1> Hi, I'm Lara! </h1>
+          <h2> Electrical Engineering & Computer Science</h2>
+          <h2> UC Berkeley 2021</h2>
+          </div>
+
         <div class="image">
           <img src="plant_photo.JPG" alt="Photo of Lara Chu" width="300" height="450">
           <div class="image-black"> </div>
           <div class="image-white"> </div>
         </div>
-      </div>
+    </div>
 
-      <div class="experience" id="experience">
-        <h1> Berkeley Law </h1>
-        <p> Student Law Developer </p>
-        <h1> Freddie Mac </h1>
-        <p> IT Intern for Atlas Aladdin Team </p>
-        <h1> EthiCal Apparel </h1>
-        <p> Senior Marketing Associate </p>
-        <h1> Berkeley Project </h1>
-        <p> Web Committee Member </p>
+<!-- experience cards -->
+    <div class="experience" id="experience">
+      <div id="project-1" class="project-card">
+        <div class="project-image">
+          <!-- <img class="icon-background" src="oval.png"> -->
+          <img src="gavel.png">
+        </div>
+        <h1> Berkeley Law School </h1>
+        <p> Web Applications Developer </p>
       </div>
+      <div id="project-2" class="project-card">
+        <div class="project-image">
+          <img src="house.png">
+        </div>
+        <h1> Freddie Mac </h1>
+        <p> Software Developer Engineer Intern </p>
+      </div>
+      <div id="project-3" class="project-card">
+        <div class="project-image">
+          <img src="lightbulb.png">
+        </div>
+        <h1> Galileo Learning </h1>
+        <p> Teaching Assistant </p>
+      </div>
+    </div>
+
+
+<!-- experience modals -->
+    <div id="simplemodal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closebutton"> &times;</span>
+          <h1> Header </h1>
+        </div>
+        <div class="modal-body">
+          <p> working here was cool </p>
+        </div>
+        <div class="modal-footer">
+          <h2> click here for more info </h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="exp2" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closebutton"> &times;</span>
+          <h1> Header </h1>
+        </div>
+        <div class="modal-body">
+          <p> working here was cool </p>
+        </div>
+        <div class="modal-footer">
+          <h2> click here for more info </h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="exp3" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closebutton"> &times;</span>
+          <h1> Header </h1>
+        </div>
+        <div class="modal-body">
+          <p> working here was cool </p>
+        </div>
+        <div class="modal-footer">
+          <h2> click here for more info </h2>
+        </div>
+      </div>
+    </div>
+
+
+
 
       <div class="projects" id="projects">
-        <h1> Nothing </h1>
-        <p> Working on it... </p>
+        <h1> projects </h1>
+        <h2> project 1 </h2>
+        <p> working on it...</p>
+        <h2> project 2 </h2>
+        <p> working on it...</p>
+        <h2> project 3 </h2>
+        <p> working on it...</p>
       </div>
 
       <div class="about" id="about">
@@ -90,5 +165,6 @@
         </ol>
       </div>
 
+  <script src="main.js"></script>
   </body>
 </html>
