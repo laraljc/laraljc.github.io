@@ -12,7 +12,7 @@ projectCard3.addEventListener('click', openModal);
 closebutton.addEventListener('click', closeModal);
 window.addEventListener('click', clickOutside);
 
-function openModal1() {
+function openModal() {
   modal.style.display = 'block';
 }
 
