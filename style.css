@@ -11,6 +11,8 @@ body {
   border-style: none none solid none;
   height: 60px;
   padding: auto;
+  position: fixed;
+  width: 100%;
 }
 
 .navbar a {
@@ -86,12 +88,17 @@ body {
 }
 
 .project-card {
-  background-color: white;
+  background-color: papayawhip;
   margin: auto;
-  height: 400px;
+  height: 350px;
   width: 300px;
   text-align: center;
   cursor: pointer;
+  padding: 20px;
+}
+
+.project-card:hover {
+  color: grey;
 }
 
 .project-image img{
@@ -132,18 +139,49 @@ body {
 }
 
 .experience {
-  border-style: solid;
+  /* border-style: solid; */
   display: flex;
+  background-color: papayawhip;
+  padding-bottom: 20px;
+}
+
+#exp-title {
+  background-color: papayawhip;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .projects  {
-  border-style: solid;
+  /* border-style: solid; */
+  display: flex;
+  background-color: white;
+}
+
+#proj1, #proj2, #proj3 {
+  background-color: white;
+}
+
+#proj-title {
+  background-color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .about {
-  border-style: solid;
+  /* border-style: solid; */
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .fun {
   border-style: solid;
+  text-align: center;
 }
