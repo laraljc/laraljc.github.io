@@ -247,6 +247,8 @@ body {
 
 .song-page {
   padding: 20px 40px;
+  display: flex;
+  flex
 }
 
 .song-listing img {
@@ -263,7 +265,7 @@ body {
 .playlist-header h1 {
   color: #ffffff;
   margin-bottom: 20px;
-  font-size: 98px;
+  font-size: 72px;
 }
 
 .playlist-desc {
@@ -289,25 +291,38 @@ body {
 
 .about-artist {
   border-radius: 10px;
-  background-color: #2A2828;
-  height: 1200px;
-  width: 25%;
-  margin: auto;
+  background-color: #1e1e1e;
+  width: 30%;
   text-align: center;
-  margin-right: 0px;
+  margin-left: 15px;
 }
 
 .about-artist p {
   color: white;
 }
 
+.video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .song {
-  padding: 50px 80px;
+  padding: 30px 30px;
   background: rgb(237,169,234);
   background: linear-gradient(0deg, rgba(237,169,234,1) 0%, rgba(230,222,206,1) 100%);
-  float: left;
   width: 60%;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .song-description {
@@ -382,7 +397,7 @@ tr:hover {
 .wrapped-header h1 {
   color: #ffffff;
   margin-bottom: 20px;
-  font-size: 98px;
+  font-size: 75px;
 }
 
 .stat-section {
