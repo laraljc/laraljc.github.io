@@ -11,7 +11,7 @@
   <!-- Sidebar and Topbar (copied from your main page) -->
   <div class="sidebar">
     <div class="logo">
-      <a href="../index.html">
+      <a href="home.html">
         <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Logo" />
       </a>
     </div>
@@ -19,7 +19,7 @@
     <div class="navigation">
       <ul>
         <li>
-          <a href="#">
+          <a href="home.html">
             <span class="fa fa-home"></span>
             <span>Home</span>
           </a>
@@ -63,7 +63,7 @@
   <div class="main-container">
     <div class="topbar">
         <div class="prev-next-buttons">
-          <button type="button" class="fa fas fa-chevron-left" onclick="window.location.href='playlist.html';"></button>
+          <button type="button" class="fa fas fa-chevron-left" onclick="window.location.href='home.html';"></button>
         </div>
 
         <div class="navbar">
@@ -86,16 +86,51 @@
         </div>
       </div>
 
-    <div class="playlist-header">
+    <div class="wrapped-header">
+        <img class="playlist-img" src="../images/album_covers/wrapped.png" />
         <div class="playlist-desc">
             <h1>Liam + Lara Wrapped</h1>
-            <p id="timeSince">You both have been together for <span id="minutes">0</span> minutes.</p>
+        </div>
+    </div>
+    <div class="wrapped-stats">
+        <div class="wrapped-title">
+            <h2>You have been together for</h2>
+        </div>
+        <div class="wrapped-stat">
+            <h1 id="timeSince"> <span id="minutes">0</span> minutes.</h1>
             <p id="timeSince">Which is equal to <span id="hours">0</span> hours.</p>
-            <p id="timeSince">You have known each other for approx. <span id="minutes-known">0</span> minutes.</p>
+        </div>
+
+        <div class="wrapped-title">
+            <h2>You have known each other for approx.</h2>
+        </div>
+        <div class="wrapped-stat">
+            <h1 id="timeSince"> <span id="minutes-known">0</span> minutes.</h1>
             <p id="timeSince">Which is equal to <span id="hours-known">0</span> hours.</p>
-            <p> your girlfriend is in top 15% of girlfriends HAHA jkjk</p>
-            <p> Some of your frequently consumed meals together include: Italian, Dominoes, Hot Pot, Viet</p>
-            <p> Alcohol beverages consumed together: infinite</p>
+        </div>
+
+        <div class="wrapped-title">
+            <h2>You girlfriend is in the top</h2>
+        </div>
+        <div class="wrapped-stat">
+            <h1> 15% </h1>
+            <p> of girlfriends HAHA jk</p>
+        </div>
+
+        <div class="wrapped-title">
+            <h2>Some of your frequently consumed meals together include</h2>
+        </div>
+        <div class="wrapped-stat">
+            <h1> Italian, Dominoes, Hot Pot, Viet </h1>
+            <p> mwah *chefs kiss* </p>
+        </div>
+
+        <div class="wrapped-title">
+            <h2>Number of alcoholic beverages consumed together</h2>
+        </div>
+        <div class="wrapped-stat">
+            <h1> &#8734; </h1>
+            <p> probably far too many to count lol </p>
         </div>
     </div>
 
