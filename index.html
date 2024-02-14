@@ -15,7 +15,7 @@
     #login-container {
       max-width: 400px;
       margin: auto;
-      background-color: #fff;
+      background-color: #FDE5E5;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,6 +26,8 @@
       margin: 10px;
       font-size: 16px;
       cursor: pointer;
+      border: none;
+      border-radius: 12px;
     }
 
     #result {
@@ -36,10 +38,11 @@
 </head>
 <body>
 
+  <img src="images/penguin.gif" width="350px" height="280px">
   <div id="login-container">
-    <h2>Will you be my valentine?</h2>
-    <button id="yesButton" onclick="handleYesButtonClick()">Yes</button>
-    <button onclick="handleNoButtonClick()">No</button>
+    <h2>will you be my valentine?</h2>
+    <button style="background-color: #98DF7A;" id="yesButton" onclick="handleYesButtonClick()">Yes</button>
+    <button style="background-color: #DF7A7A;" onclick="handleNoButtonClick()">No</button>
     <div id="result"></div>
   </div>
 
@@ -61,12 +64,15 @@
         "what the",
         "excuse me?",
         "i think you misclicked",
+        "are you sure?",
+        "are you really really sure?",
         "bruh ihy",
         "you don deserve dis",
-        "was a good week and a half.",
         "rood.",
         "thats fine. i didnt want you to be anyway.",
-        "go away"
+        "go away",
+        ";-;",
+        "purdy pls ;("
       ];
 
       const messageIndex = noButtonClickCount % messages.length;

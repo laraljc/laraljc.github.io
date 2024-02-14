@@ -286,8 +286,7 @@ body {
 .about-artist {
   border-radius: 10px;
   background-color: #2A2828;
-  height: 900px;
-  float: right;
+  height: 1200px;
   width: 25%;
   margin: auto;
   text-align: center;
@@ -339,16 +338,15 @@ body {
 table {
   border-collapse: collapse;
   width: 100%;
-  color: #D7D1D1;
+  color: #BFB5B5;
+  background-color: #101010;
+  border-radius: 0 0 10px 10px;
 }
 
 th, td {
   padding: 15px;
   text-align: left;
-}
-
-th {
-  background-color: #101010;
+  vertical-align: middle;
 }
 
 td {
@@ -367,6 +365,10 @@ tr:hover {
   background-color: #575353;
 }
 
+.wrapped-page {
+  padding: 20px 40px;
+}
+
 .wrapped-header {
   round: rgb(163,149,175);
   background: linear-gradient(0deg, rgba(163,149,175,1) 0%, rgba(195,102,255,1) 100%);
@@ -379,22 +381,45 @@ tr:hover {
   font-size: 98px;
 }
 
+.stat-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.wrapped-title {
+  padding-bottom: 5px;
+  font-size: 22px;
+}
+
+.wrapped-title h2 {
+  font-weight: 100;
+}
+
+.wrapped-stat p {
+  font-weight: 100;
+}
+
+.wrapped-stat h1 {
+  font-size: 48px;
+  padding-bottom: 5px;
+  font-weight: 900;
+}
+
 .wrapped-stats {
   color: white;
-  background-color: grey;
-  padding-left: 50px;
-  padding-right: 50px;
   text-align: center;
+  padding-top: 10px;
 }
 
 .slider-container {
-  height: 1000px;
-  padding-left: 50px;
-  padding-right: 50px;
+  height: 1300px;
+  background-color: #F0A4A4;
   text-align: center;
+  padding-top: 100px;
 }
 
 .slider {
+  margin: auto;
   width: 600px;
   height: 850px;
   border-radius: 10px;
@@ -418,6 +443,8 @@ tr:hover {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  color: white;
+  font-weight: 100;
 }
 
 .slide {
@@ -513,9 +540,9 @@ tr:hover {
 .navigation-auto {
   position: absolute;
   display: flex;
-  width: 800px;
+  width: 600px;
   justify-content: center;
-  margin-top: 460px;
+  margin-top: 750px;
 }
 
 .navigation-auto div {
@@ -525,7 +552,7 @@ tr:hover {
   transition: 1s;
 }
 
-.navigation-auto div.manual-btn:not(:last-child) {
+.navigation-auto div:not(:last-child) {
   margin-right: 20px;
 }
 
